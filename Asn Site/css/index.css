@@ -1,0 +1,408 @@
+/*
+    color: rgb(01, 89, 135);
+    color: rgb(255, 171, 33);
+*/
+
+header{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 100%;
+    height: 12%;
+    left: 0%;
+    top: 0%;
+    border-bottom: 8px solid goldenrod;
+    font-family: 'Source Sans Pro', sans-serif;
+    z-index: 1;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#logo-asn-wrapp{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 30%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    float: left;
+    font-size: 14px;
+}
+
+#logo-asn-wrapp img{
+    background-color: white;
+    position: relative;
+    width: 15%;
+    left: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin-right: 10%;
+}
+
+#logo-asn-wrapp h1{
+    background-color: white;
+    position: relative;
+    width: 60%;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: rgb(01, 89, 135);
+}
+
+#send{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    height: 100%;
+    float: right;  
+}
+
+#cabecalho{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+
+#cabecalho ul{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-weight: bolder;
+
+}
+
+#cabecalho li{
+    position: relative;
+    float: left;
+    list-style: none;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    padding: 1%;
+    margin-left: 3%;
+    text-align: center;
+    color: rgb(01, 89, 135);
+    font-weight: 900;
+}
+
+#cabecalho li:first-child{
+    margin-left: 0;
+}
+
+#send button{
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    height: 40%;
+    top: 30%;
+    left: 0%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    border: 2px solid rgb(255, 171, 33);;
+    color: rgb(01, 89, 135);
+}
+
+/*Carrosel de Imagens*/
+
+#wrapp{
+    position: absolute;
+    background-color: red;
+    top: 12%;
+    left: 0%;
+    width: 100%;
+    height: 88%;
+    overflow: scroll;
+}
+
+#wrapp::-webkit-scrollbar{
+    display: none;
+}
+
+#carrousel-wrapp{
+    position: relative;
+    width: 100%;
+    float: left;
+    left: 0;
+    top: 0;
+    background-color: rgb(01, 89, 135);
+}
+
+#carrousel-wrapp img{
+    width: 100%;
+}
+
+#produtos{
+    position: relative;
+    width: 100%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    float: left;
+    left: 0;
+    top: 0;
+    background-color: rgb(01, 89, 135);
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+#produtos h1{
+    margin: 0;
+    padding: 0;
+}
+
+#produtos p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+#seguimentos{
+    position: relative;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    float: left;
+    left: 0;
+    top: 0%;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#seguimento-title{
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-bottom: 2%;
+    left: 0;
+    top: 0%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+}
+
+#seguimentos-app{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    left: 0;
+    top: 0%;
+    background-color: white;
+}
+
+.seguimento-item{
+    position: relative;
+    width: 10%;
+    height: 80%;
+    float: left;
+    left: 5%;
+    top: 10%;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    margin-left: 10%;
+}
+
+.seguimento-item-img{
+    position: relative;
+    background-color: #005987;
+    width: 150px;
+    height: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.seguimento-item-img img{
+    position: relative;
+    width: 70%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.seguimento-item-descricao{
+    text-align: center;
+    position: relative;
+    font-size: 10px;
+    color: black;
+}
+
+#conhecer-produto{
+    position: relative;
+    width: 100%;
+    float: left;
+    left: 0;
+    top: 0%;
+    background-color: rgb(255, 0, 170);
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+
+}
+
+.div-nosso-produto{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    float: left;
+    margin: 0;
+    left: 0%;
+    top: 0%;
+    background-color: rgb(01, 89, 135);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 2% 0% 2% 0%;
+}
+
+/*Produtos*/
+
+#produto-item{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding: 5% 0% 5% 0%;
+    left: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.produto-item{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 90%;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(01, 89, 135);
+    margin: 0% 10% 0% 0%;
+}
+
+.produto-item:first-child{
+    margin-left: 8%;
+}
+
+.produto-img-wrapp{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 2% 0% 2% 0%;
+    left: 0%;
+    top: 0;
+}
+
+.produto-descricao-wrapp{
+    position: relative;
+    float: left;
+    width: 84%;
+    left: 0%;
+    padding: 0% 8% 0% 8%;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.produto-descricao-wrapp h1{
+    color: rgb(01, 89, 135);
+}
+
+.produto-descricao-wrapp p{
+    font-size: 15px;
+}
+
+
+.produto-saiba-wrapp button{
+    border: none;
+    position: relative;
+    float: left;
+    width: 100%;
+    left: 0%;
+    padding: 2%;
+    top: 0;
+    background-color: rgb(01, 89, 135);
+    color: white;
+    font-size: 20px;
+}
+
+/*footer*/
+
+footer{
+    background-color: rgb(255, 171, 33);
+    position: relative;
+    float: left;
+    top: 0%;
+    left: 0%;
+    width: 94%;
+    padding: 2% 3% 2% 3%;
+    bottom: 0%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#asn-wrapp{
+    background-color: rgb(255, 171, 33);
+    position: relative;
+    float: left;
+    top: 0%;
+    left: 0%;
+    width: 40%;
+    height: 100%;
+    bottom: 0%;
+}
+
+#navegacao-wrapp{
+    background-color: rgb(255, 171, 33);
+    position: relative;
+    float: left;
+    top: 0%;
+    left: 0%;
+    width: 30%;
+    height: 100%;
+}
+
+#atendimento-wrapp{
+    background-color: rgb(255, 171, 33);
+    position: relative;
+    float: left;
+    top: 0%;
+    left: 0%;
+    width: 30%;
+    height: 100%;
+}
+
+#copy{
+    background-color: rgb(214, 138, 15);
+    position: relative;
+    float: left;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 1% 0% 1% 0%;
+    bottom: 0;
+    text-align: center;  
+}
